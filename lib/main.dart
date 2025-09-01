@@ -4,6 +4,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:listin/core/colors.dart';
 import 'package:listin/features/authentication/screens/auth_screen.dart';
+import 'package:listin/features/home/screens/home_screen.dart';
 import 'package:listin/firebase_options.dart';
 
 /*
@@ -72,19 +73,6 @@ class ScreenRouter extends StatelessWidget {
           }
         }
       },
-    );
-  }
-}
-
-class HomeScreen extends StatelessWidget {
-  final User user;
-  const HomeScreen({super.key, required this.user});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home')),
-      body: Center(child: Text('Welcome, \\${user.email ?? "User"}!')),
     );
   }
 }
