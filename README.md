@@ -1,7 +1,5 @@
 # Listin - Collaborative Shopping List App
 
-![Banner Image](https://via.placeholder.com/1200x400.png?text=Listin+-+Collaborative+Shopping+List+App)
-
 ## Project Description
 
 This project is a Flutter application that helps users create and manage collaborative shopping lists. It leverages Firebase as a backend to provide real-time data synchronization, user authentication, and cloud storage for user profile pictures.
@@ -71,23 +69,28 @@ Follow these steps to run the app on your local machine:
 ## App Screenshots
 
 ![Auth Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot1.png)
+
 _The authentication screen, where users can sign in or register for a new account._
 
 ![Sign Up Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot2.png)
+
 _The sign up screen, where users can register for a new account._
 
 ![Profile Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot3.png)
+
 _The profile screen allows users to manage their profile picture history._
 
 ![Menu Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot4.png)
-\_The menu screen, where users can remove, sign out and access the profile screen.\_
+
+_The menu screen, where users can remove, sign out and access the profile screen._
 
 ![Home Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot5.png)
+
 _The home screen displays the user's shopping lists._
 
 ![Home Screen](https://github.com/joeltonmats/flutter-listin/blob/main/assets/images/screenshot6.png)
-_A detailed view of a shopping list, showing planned and purchased products._
 
+_A detailed view of a shopping list, showing planned and purchased products._
 
 ---
 
