@@ -4,6 +4,7 @@ import 'package:listin/features/authentication/services/auth_service.dart';
 import 'package:listin/features/authentication/widgets/confirmation.dart';
 import 'package:listin/features/home/models/listin.dart';
 import 'package:listin/features/home/services/listin_service.dart';
+import 'package:listin/features/profile/screens/profile_screen.dart';
 import 'package:uuid/uuid.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -47,12 +48,12 @@ class _HomeScreenState extends State<HomeScreen> {
               leading: const Icon(Icons.image),
               title: const Text("Change profile picture"),
               onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => const StorageScreen(),
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ProfileScreen(),
+                  ),
+                );
               },
             ),
             ListTile(
